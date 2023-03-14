@@ -11,7 +11,7 @@ class AccountSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Account
-        fields = ['id', 'email', 'username', 'first_name', 'last_name', 'is_active', 'created_at']
+        fields = ['id', 'email', 'username', 'is_active', 'created_at']
         read_only_fields = ['id', 'created_at']
         # The `id` and `created_at` fields are read-only fields and should
         # not be allowed to be modified by the user.
