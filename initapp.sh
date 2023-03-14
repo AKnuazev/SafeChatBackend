@@ -48,6 +48,6 @@ git commit -m "Initial commit"
 # Create a new repository on GitHub
 
 # Connect your local repository to the remote repository on GitHub
-git remote add origin git@github.com:AKnuazev/SafeChatBackend.git
+git remote add origin git@github.com:AKnuazev/SafeChatBackend
 
 echo "Setup complete."
